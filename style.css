@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(42, 7, 75);
+}
+
+.background {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, p, button, #result {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(60, 9, 110);
+  color: black;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
